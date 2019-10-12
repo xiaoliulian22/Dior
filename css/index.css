@@ -1,0 +1,916 @@
+/* 公共樣式 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+textarea,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Microsoft Yahei', 'simsun', 'arial', 'tahoma';
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+a,
+img {
+    -webkit-touch-callout: none
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none
+}
+
+input[type=password],
+input[type=text],
+textarea {
+    resize: none;
+    outline: 0;
+    -webkit-appearance: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: #fff
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+}
+
+.clearfix {
+    clear: both;
+    content: "";
+    display: block;
+    overflow: hidden
+}
+
+.clear {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* header */
+.header {
+    width: 100%;
+}
+
+.headercon {
+    width: 1400px;
+    height: 63px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 354px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.center {
+    width: 897px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.right {
+    width: 149px;
+    height: 100%;
+    float: left;
+    text-align: end;
+}
+
+.left input {
+    width: 300px;
+    height: 43px;
+    border: 1px solid #767676;
+    border-radius: 50px;
+    text-indent: 23px;
+    margin: 21px 0 0 54px;
+    font-size: 14px;
+}
+
+.left span {
+    display: block;
+    width: 60px;
+    height: 43px;
+    background: #000;
+    border-top-right-radius:50px;border-bottom-right-radius:50px;
+    position: absolute;
+    left: 294px;
+    top: 21px;
+    display: none;
+}
+.left .i22{
+    z-index: 1;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    font-size: 40px;
+    color: #000;
+}
+
+.center img{
+    margin-top: 22px;
+}
+
+.right img{
+    margin-right: 15px;
+    margin-top: 29px;
+    cursor: pointer;
+}
+
+/* nav */
+.nav{
+    width: 100%;
+    height: 64px;
+}
+.nav .navcon{
+    width: 1440px;
+    height: 64px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+.navcon .uls{
+    margin: 30px 0 0 90px;
+    height: 64px;
+}
+.uls>li{
+    float: left;
+    text-align: center;
+}
+.uls>li>a{
+    color: black;
+}
+.uls>li>a{
+    display: inline-block;
+    width: 100px;
+    height: 64px;
+    text-align: center;
+}
+.uls>li>a:last-child{
+    width: 150px;
+}
+/* banner */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    overflow-x: hidden;
+}
+
+.swiper-container .swiper-wrapper {
+    width: 1438px;
+    margin: 0 auto;
+}
+
+.swiper-container .swiper-slide {
+    width: 1440px;
+}
+.swiper-container .swiper-button-prev {
+    position: absolute;
+    left: 16px;
+    top: 280px;
+    color: black;
+}
+
+.swiper-container .swiper-button-next {
+    position: absolute;
+    left: 1477px;
+    top: 280px;
+    color: black;
+}
+/* 导航栏 */
+.test {
+    width: 1442px;
+    height: 214px;
+    background: white;
+    position: absolute;
+    top: 128px;
+    z-index: 999;
+    padding-top: 20px;
+    display: none;
+}
+
+.test_one,
+.test-two,
+.test_three,
+.test_four {
+    float: left;
+}
+
+.test_one>img {
+    margin-left: 160px;
+
+}
+
+.test-two {
+    margin-left: 39px;
+}
+
+.test-two>ul>li>a {
+    color: black;
+    font-size: 14px;
+    line-height: 31px;
+}
+
+.test_three {
+    margin-left: 204px;
+}
+
+.test_three p {
+    color: #757575;
+}
+
+.test_four {
+    margin-left: 39px;
+}
+
+.test_four>ul>li>a {
+    color: black;
+    font-size: 14px;
+    line-height: 31px;
+}
+
+.nav>.navcon>ul>li:hover {
+    font-weight: bolder;
+}
+.test-8-one,.test-8-two,.test-8-three,.test-8-four{
+    float: left;
+    margin-right: 30px;
+    font-size: 14px;
+    line-height: 27px;
+}
+.xutest{
+    width: 1442px;
+    height: 500px;
+    background: white;
+}
+.test-8-one{
+    margin-left: 160px;
+}
+/* 精选 */
+.jing{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.jing .jingcon{
+    width: 132px;
+    height: 188px;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+.jing .jingcon p{
+    line-height: 46px;
+    text-align: center;
+    height: 46px;
+}
+.jing .jingcon p:first-child{
+    border-bottom: 1px solid #000;
+    width:63px;
+    margin-left: 36px;
+}
+.jing .jingcon p:last-child{
+    font-size: 62px;
+    line-height: 62px;
+    margin-top: 14px;
+}
+.aa{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.lutb{
+    width: 1140px;
+    height: 100%;
+
+}
+.lubb{
+    width: 33%;
+}
+.llb{
+    width: 1265px;
+    height: 792px;
+    margin: 0 auto;
+}
+.llb img{
+    width: 363px;
+    height: 392px;
+   }
+.dian{
+    margin-top: 20px;
+    left: 740px;
+}
+.aa .prea{
+    position: absolute;
+    left: 15px;
+    top:190px;
+}
+/* 女士 */
+.girl{
+    width: 100%;
+    height: 100%;
+}
+.girlcon{
+    width: 1440px;  
+    margin: 0 auto;
+}
+.girlcon p:first-child{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.girlcon p:nth-child(2){
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.girlcon p:last-child{
+    font-size: 32px;
+}
+.fashion{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+}
+.fashioncon{
+    width: 1440px;
+    height: 486px;
+    margin: 0 auto;
+}
+.fashioncon img{
+    width: 330px;
+    height: 358px;
+}
+.fashioncona,.fashionconb,.fashionconc{
+    float: left;
+    margin-right: 40px;
+}
+.fashioncond{
+    float: left;
+}
+.fashioncon p{
+    font-size: 24px;
+}
+.boy{
+    width: 100%;
+    height: 100%;
+}
+.boycon{
+    width: 1440px;
+    height: 737px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+.boycon p:first-child{
+    font-size: 50px;
+    text-align: center;
+}
+.boycon p:nth-child(2){
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.boycon .p1{
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 9px;
+}
+.boycon .p2{
+    font-size: 14px;
+}
+.fashionboy{
+    width: 100%;
+    height: 100%;
+}
+.fashionbogcon{
+    width: 1440px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.fashionbogconleft,.fashionbogconcenter,.fashionbogconright{
+    float: left;
+    font-size: 26px;
+}
+.fashionbogconleft,.fashionbogconcenter{
+    margin-right: 41px;
+}
+.fashionchildcon p{
+    font-size: 30px;
+}
+.child{
+    width: 100%;
+    height: 100%;
+}
+.childcon{
+    width: 1440px;
+    height: 110px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.childcon p:first-child{
+    font-size: 52px;
+    text-align: center;
+}
+.childcon p:nth-child(2){
+    text-align: center;
+}
+.shionchild{
+    width: 100%;
+    height: 100%;
+}
+.shionchildcon{
+    width: 1440px;
+    height: 590px;
+    margin: 0 auto;
+}
+.shionchildcon img:first-child{
+    margin-right: 5px;
+}
+.shionchildcon img{
+    float: left;
+}
+.shionchildcon p{
+    font-size: 30px;
+    line-height: 60px;
+    height: 87px;
+}
+.fashionchild{
+    width: 100%;
+    height: 100%;
+}
+.fashionchildcon{
+    width: 1440px;
+    height: 430px;
+    margin: 0 auto;
+}
+.fashionchildconleft,.fashionchildconcenter1,.fashionchildconcenter2,.fashionchildconright{
+    float: left;
+}
+.fashionchildconleft,.fashionchildconcenter1,.fashionchildconcenter2{
+    margin-right: 39px;
+}
+.jingpindian{
+    width: 100%;
+    height: 100%;
+}
+.jingpindiancon{
+    width: 100%;
+    height: 456px;
+    margin: 0 auto;
+    background: url(../imgs/background.jpg) no-repeat center center;
+    background-size: 100% 456px;
+    overflow: hidden;
+    position: relative;
+}
+.jingpindiancon p{
+    font-size: 30px;
+    text-align: center;
+    margin-top:173px;
+}
+.jingpindiancon input{
+    width: 300px;
+    height: 43px;
+    border: 1px solid #767676;
+    border-radius: 50px;
+    text-indent: 25px;
+    margin: 26px 0 0 610px;
+    font-size: 14px;
+}
+.jingpindiancon span{
+    display: block;
+    width: 60px;
+    height: 42px;
+    background: #000;
+    border-top-right-radius:50px;border-bottom-right-radius:50px;
+    position: absolute;
+    left: 850px;
+    top: 244px;
+}
+.jingpindian .jingpindiancon .i2{
+    z-index: 999;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    font-size: 40px;
+    color: white;
+    margin-top: 222px;
+    margin-left: 558px;
+}
+.footertop{
+    width: 100%;
+    height: 100%;
+}
+.footertopcon{
+    width: 100%;
+    height: 230px;
+    background: black;
+}
+.footertopcon .p111{
+    font-size: 24px;
+    color: white;
+    line-height: 12px;
+    padding-top: 49px;
+    text-align: center;
+}
+.footertop{
+    width: 100%;
+    height: 100%;
+}
+.footertopcon{
+    width: 100%;
+    height: 258px;
+    background: black;
+    margin: 0 auto;
+}
+.vipl,.vipc,.vipr{
+    width: 400px;
+    height: 124px;
+    float: left;
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-top: 45px;
+}
+.vipl{
+    margin-left: 145px;
+}
+.aa .swiper-button-next-position{
+    position: absolute;
+    left: 1100px;
+    top: 190px;
+}
+.swiper-slide #lbt .li1{
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 18px;
+    color: #757575;
+}
+.swiper-slide #lbt .li2{
+    font-size: 34px;
+    line-height: 34px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.swiper-slide #lbt .li3{
+    font-size: 18px;
+    color: white;
+    width: 281px;
+    height: 42px;
+    background: #000;
+    text-indent: 87px;
+    padding-top: 18px;
+    margin-top: 20px;
+    border-radius: 50px;
+    vertical-align: center;
+}
+.swiper-slide #lbt .li33{
+    width: 281px;
+    height: 59px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 59px;
+    border:1px solid black;
+}
+.vipl img{
+    margin-left: 187px;
+    margin-bottom: 19px;
+}
+.vipl p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.vipc img{
+    margin-left: 190px;
+    margin-bottom: 19px;
+}
+.vipc p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.vipr img{
+    margin-left: 184px;
+    margin-bottom: 19px;
+}
+.vipr p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+}
+.footercon{
+    width: 1440px;
+    height: 410px;
+    margin: 0 auto;
+}
+.footerconleft{
+    width: 430px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.footerconcenter{
+    width: 537px;
+    height: 100%;
+    float: left;
+}
+.footerconright{
+    width: 473px;
+    height: 100%;
+    float: left;
+}
+
+
+.footerconleft input {
+    width: 300px;
+    height: 43px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-indent: 23px;
+    margin: 21px 0 0 54px;
+    font-size: 14px;
+}
+
+.footerconleft span {
+    display: block;
+    width: 60px;
+    height: 41px;
+    background: #cccccc;
+    border-top-right-radius:50px;border-bottom-right-radius:50px;
+    position: absolute;
+    left: 294px;
+    top: 205px;
+    color: white;
+    text-align: center;
+    line-height: 43px;
+    border:1px solid black;
+    border-left: none;
+}
+.footerconleft p{
+    margin-top: 160px;
+    text-align: center;
+}
+.footerconcenter ul{
+    text-align: center;
+    margin-top: 40px;
+}
+.footerconcenter ul li{
+    font-size: 14px;
+    line-height: 14px;
+    width: 90px;
+    margin-left: 230px;
+    margin-bottom: 26px;
+    border-bottom: 1px solid black;
+}
+.footerconcenter ul li:hover{
+    font-weight: bold;
+}
+.footerconcenter p{
+    margin-left: 166px;
+    font-size: 14px;
+    color: #757575;
+}
+.footerconright p{
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.footerconright img{
+    margin-left: 212px;
+}
+.footerconright p:first-child{
+    margin-top: 100px;
+}
+.footerconright .p1{
+    font-weight: bold;
+    color: #e5e5e5;
+}
+.footerconright select {
+    width: 300px;
+    height: 43px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-indent: 23px;
+    font-size: 14px;
+    margin-left: 110px;
+}
+.swiper-slide .p1{
+    margin-top: 53px; 
+    font-size: 14px;
+    margin-left: 110px;
+
+}
+.swiper-slide .p2{
+    font-size: 14px;
+    margin-left: 65px;
+}
+.swiper-slide .p3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 85px;
+    margin-left: 144px;
+}
+.swiper-slide .p4{
+    width: 154px;
+    height: 48px;
+    background: black;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    line-height: 48px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.swiper-slide .p4 img{
+    width: 15px;
+    height: 20px;
+    text-align: center;
+}
+/* 导航栏 */
+.test{
+    width: 100%;
+}
+.test_brapper .test-one{
+    float: left;
+    margin-left: 30px;
+}
+.test_brapper img{
+    width: 150px;
+    height: 87px;
+}
+.test_brapper{
+    margin-top: 38px;
+    height: 543px;
+}
+.navcon .testa {
+    width: 1442px;
+    height: 545px;
+    background: white;
+}
+.navcon .testb{
+    width: 1442px;
+    height: 374px;
+    background: white;
+}
+.navcon .testc{
+    width: 1442px;
+    height: 466px;
+    background: white;
+}
+.navcon .testd{
+    width: 1442px;
+    height: 466px;
+    background: white;
+}
+.navcon .teste{
+    width: 1442px;
+    height: 515px;
+    background: white;
+}
+.navcon .testf{
+    width: 1442px;
+    height: 215px;
+    background: white;
+}
+.test_brapper .test-one li{
+    margin-top: 7px;
+}
+.test_brapper .two{
+    margin-right: 64px;
+}
+.test_brapper .three{
+    margin-right: 162px;
+}
+.test_brapper .four{
+    margin-right: 64px;
+}
+.test_brapper .six{
+    margin-right: 50px;
+}
+.test_brapper .five{
+    margin-right: 220px;
+}

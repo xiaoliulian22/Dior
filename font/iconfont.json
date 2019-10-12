@@ -1,0 +1,16 @@
+{
+  "id": "1444246",
+  "name": "迪奥官网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7985769",
+      "name": "search",
+      "font_class": "xiaoxi-",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="xiaoxi-" unicode="&#58880;" d="M774.23023755 170.85602196000002L619.57733266 325.50892683999996a204.83328313 204.83328313 0 1 1-34.48852086-36.6702764L738.56692524 135.36053701000003z m-478.30795328 275.48859834a158.76467501 158.76467501 0 1 0 158.59684766-158.764675A158.93250237 158.93250237 0 0 0 295.83837061 446.3446203z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
